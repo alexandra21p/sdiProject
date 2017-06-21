@@ -1,0 +1,13 @@
+<div *ngIf="problem">
+    <h2>Details for problem: {{problem.number}}</h2>
+    <div>
+        <label>Number: </label> {{problem.number}}
+        <input [(ngModel)]="problem.number" placeholder="number">
+    </div>
+    <div>
+        <label>Statement: </label> {{problem.statement}}
+        <input [(ngModel)]="problem.statement" placeholder="statement">
+    </div>
+    <button (click)="goBack()">Back</button>
+    <button (click)="saveChanges()">Save Changes</button>
+</div>

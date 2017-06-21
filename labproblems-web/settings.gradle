@@ -1,0 +1,2 @@
+include ':labproblems-core'
+project(':labproblems-core').projectDir = new File(settingsDir, '../labproblems-core')

@@ -1,0 +1,17 @@
+<div *ngIf="student">
+    <h2>Details for student: {{student.name}}</h2>
+    <div>
+        <label>Serial number: </label> {{student.serialNumber}}
+        <input [(ngModel)]="student.serialNumber" placeholder="serialNumber">
+    </div>
+    <div>
+        <label>Name: </label> {{student.name}}
+        <input [(ngModel)]="student.name" placeholder="name">
+    </div>
+    <div>
+        <label>Group number: </label> {{student.group}}
+        <input [(ngModel)]="student.group" placeholder="group">
+    </div>
+    <button (click)="goBack()">Back</button>
+    <button (click)="saveChanges()">Save Changes</button>
+</div>

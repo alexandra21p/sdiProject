@@ -1,0 +1,14 @@
+a {
+  text-decoration: none;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 1em;
+  padding: 0.4em 0.7em;
+  color: white;
+  background-color:  #33acfe;
+  border-radius: 3px;
+  margin: 0 7.6em;
+}
+
+a:hover {
+  background-color: #239dee;
+}

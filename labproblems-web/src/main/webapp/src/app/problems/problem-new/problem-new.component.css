@@ -1,0 +1,29 @@
+.new-comp {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  border: 1px solid #CCCCCC;
+  padding: 0 3em 1.5em;
+  text-align: center;
+}
+h3, input, label, button {
+  font-family: "Century Gothic", sans-serif;
+}
+
+h3 {
+  font-style: italic;
+  text-align: center;
+  color: #239dee;
+}
+input {
+  margin: 0.5em;
+  padding: 0.2em;
+}
+
+button {
+  margin-top: 1.3em;
+  /*margin-left: 1em;*/
+  color: #239dee;
+  font-weight: bold;
+  padding: 0.2em 1em;
+}

@@ -1,0 +1,59 @@
+body, h4, h1, h2, h3 {
+  font-family: "Century Gothic", sans-serif;
+  font-style: italic;
+  border-bottom: 1px solid #CCCCCC;
+  margin: 1.5em 0;
+}
+label {
+  display: inline-block;
+  width: 13em;
+  margin: .5em 0;
+  color: #607D8B;
+  font-weight: bold;
+}
+input {
+  border-radius: 5px;
+  border-style: ridge;
+  height: 1.4em;
+  font-size: 0.9em;
+  padding-left: .4em;
+  margin: 0;
+  font-family: "Century Gothic", sans-serif;
+}
+button {
+  margin: 20px 5px;
+  font-family: "Century Gothic", sans-serif;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
+
+ol {
+  margin: 0 2em;
+  border: 1px solid #cfd8dc;
+  background-color: #eee;
+  border-radius: 3px;
+}
+ol li {
+  max-width: inherit;
+  padding: 0.5em;
+  font-family: "Century Gothic", sans-serif;
+  color: #607D8B;
+  font-weight: bolder;
+  border-bottom: 1px solid #CCCCCC;
+  cursor: pointer;
+}
+
+ol li:last-child {
+  border: none;
+}

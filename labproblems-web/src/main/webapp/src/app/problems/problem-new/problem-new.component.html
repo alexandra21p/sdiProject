@@ -1,0 +1,17 @@
+<div class="new-comp">
+  <h3>Add Problem</h3>
+
+  <div>
+    <label>Number: </label>
+    <input #problemNumber/>
+  </div>
+  <div>
+    <label>Statement: </label>
+    <input #problemStatement>
+  </div>
+
+  <div>
+    <button (click)="goBack()">Back</button>
+    <button (click)="save(problemNumber.value, problemStatement.value)">Save</button>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+body, h4, h1, h2, h3 {
+    font-family: "Century Gothic", sans-serif;
+    font-style: italic;
+    border-bottom: 1px solid #CCCCCC;
+    margin: 1.5em 0;
+}
+label {
+    display: inline-block;
+    width: 8em;
+    margin: .5em 0;
+    color: #607D8B;
+    font-weight: bold;
+}
+input {
+    border-radius: 5px;
+    border-style: ridge;
+    height: 1.4em;
+    font-size: 0.9em;
+    padding-left: .4em;
+    margin: 0 3em;
+    font-family: "Century Gothic", sans-serif;
+}
+button {
+    margin-top: 20px;
+    font-family: "Century Gothic", sans-serif;
+    background-color: #eee;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #cfd8dc;
+}
+button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+}

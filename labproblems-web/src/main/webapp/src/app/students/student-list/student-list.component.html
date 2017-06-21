@@ -1,0 +1,17 @@
+<div *ngIf="selectedStudent" class="selectedStudent">
+    <h4>
+        {{selectedStudent.name | uppercase}} was selected
+    </h4>
+    <button (click)="gotoDetail()">View Details</button>
+</div>
+
+<h2>Students</h2>
+<ol class="students">
+    <li *ngFor="let student of students "
+        [class.selected]="student === selectedStudent"
+        (click)="onSelect(student)">
+        {{student.name}}
+        <button class="delete"
+              (click)="delete(student); $event.stopPropagation()">X</button>
+    </li>
+</ol>
